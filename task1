@@ -1,0 +1,16 @@
+x = int(input("First number? "))
+y = int(input("Second number? "))
+z = int(input("Third number? "))
+a = int(input("Fourth number? "))
+
+my_file = open("Numbers.txt", "w")
+my_file.write(str(x))
+my_file.write("\n")
+my_file.write(str(y))
+my_file.write("\n")
+my_file.write(str(z))
+my_file.write("\n")
+my_file.write(str(a))
+
+
+my_file.close()
